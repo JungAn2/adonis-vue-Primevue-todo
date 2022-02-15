@@ -1,5 +1,7 @@
 # adonis-vue-Primevue-todo 배우기
 
+For some reason, I can't clone this on my windows pc and run it.
+
 Using two youtube for adonis
 https://www.youtube.com/watch?v=bSvw887ptKI&t=482s
 https://www.youtube.com/watch?v=dfEZlcPvez8&t=608s
