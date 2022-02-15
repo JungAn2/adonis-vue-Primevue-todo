@@ -23,17 +23,3 @@ import Route from '@ioc:Adonis/Core/Route'
 Route.get('/', async () => {
   return { hello: 'world' }
 })
-
-//Using params
-Route.get('/posts/:postId', async({params}) => {
-  return 'Id: ' + params.postId
-})
-
-//Connectes the controller to Routes
-//apiOnly() Only get crud
-Route.resource('/users', 'UsersController.index').apiOnly()
-
-/*
-can nest route
-Route.resource('/users.name', 'UsersController.index').apiOnly()
-*/
