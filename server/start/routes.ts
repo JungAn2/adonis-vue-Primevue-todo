@@ -20,10 +20,9 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async() => {
-  return 'hello'
-})
+//Can use Route.group(()=>{}).prefix("") to have all the prefix
 
 Route.group(()=> {
   Route.post('auth/register', 'UsersController.register')
-})
+  Route.post('auth/login', 'UsersController.login')
+}).prefix('api')
