@@ -72,5 +72,18 @@ The auth uses oat which you can see from config/auth.ts
 > model: user / created migration
 > sore database /created migration
 
+To authenticate login on postman
+> do auth
+> bearer token
+> put in token
+
+In regards to projectController,
+> return await user.project().fetch()
+can be changed to
+This is part of the project from model/user.ts
+> return await user.project
+
+
+
 Terminal commands
 - node ace list:routes
