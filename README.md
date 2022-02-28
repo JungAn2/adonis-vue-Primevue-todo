@@ -87,3 +87,7 @@ This is part of the project from model/user.ts
 
 Terminal commands
 - node ace list:routes
+
+
+Changed to learning express instead of adonis,
+Will finish this whenI get the chance
